@@ -6,6 +6,8 @@
 *.lo
 *.o
 *.obj
+.venv
+/build
 
 # Precompiled Headers
 *.gch
@@ -30,3 +32,13 @@
 *.exe
 *.out
 *.app
+yolov4_detector
+yolov8_detector
+
+#Outputs and Videos Paths
+/output
+/CAMERA
+/settings
+
+#VS code config
+.vscode
