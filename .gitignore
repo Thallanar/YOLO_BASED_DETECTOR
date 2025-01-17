@@ -28,12 +28,14 @@
 *.a
 *.lib
 
+# Under development or non-functional
+/yolov8
+
 # Executables
 *.exe
 *.out
 *.app
 yolov4_detector
-yolov8_detector
 
 #Outputs and Videos Paths
 /output
@@ -42,3 +44,4 @@ yolov8_detector
 
 #VS code config
 .vscode
+

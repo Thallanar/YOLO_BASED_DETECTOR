@@ -130,7 +130,7 @@
     ```bash
         cmake -D WITH_HIGHUI=ON \
               -D WITH_GSTREAM=ON \
-              -D WITH_FFMPEG \
+              -D WITH_FFMPEG=ON \
               -D CMAKE_BUILD_TYPE=Release \
               -D CMAKE_INSTALL_PREFIX=/usr/local \
               -D OPENCV_EXTRA_MODULES_PATH=../../opencv_contrib/modules ..
